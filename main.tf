@@ -7,10 +7,10 @@ provider "azurerm" {
     tenant_id = "dd7ad0d2-c35d-47dd-b1c8-bdbd87806002"
 }
 resource "azurerm_resource_group" "RG" {
-    name = "terraform-india"
+    name = "azdevops_pipeline_rg"
     location = "eastus"
     tags = {
         environment = "test"
-    }
+    
   
 }
